@@ -1,0 +1,22 @@
+{
+  "name": "data-viz-gallery",
+  "version": "1.0.0",
+  "description": "Data Viz Gallery",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasleivab/Data-Viz-Gallery.git"
+  },
+  "author": "Nicolás Leiva Büchi <nicolasleivab@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolasleivab/Data-Viz-Gallery/issues"
+  },
+  "homepage": "https://github.com/nicolasleivab/Data-Viz-Gallery#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
