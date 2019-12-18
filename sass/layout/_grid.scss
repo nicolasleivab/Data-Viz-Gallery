@@ -14,6 +14,7 @@ grid-column-gap: 1rem;
 .item {
     height: 18rem;
     width: 30rem;
-    border: solid $color-grid-gray .15rem;
+    border: solid $color-grid-gray .05rem;
     border-radius: .5rem;
+    box-shadow: 0px 2px 3px #ccc;
 }

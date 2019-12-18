@@ -1,0 +1,38 @@
+@mixin backImg {
+    background-size: cover;
+    background-repeat:no-repeat; 
+    padding: .1rem;
+}
+.item--1{
+    @include backImg();
+    background-image: url('../../img/ReactCandle.jpg');
+}
+.item--2{
+    @include backImg();
+    background-image: url('../../img/lineCharts.jpg');
+}
+.item--3{
+    @include backImg();
+    background-image: url('../../img/histogram.jpg');
+}
+.item--4{
+    @include backImg();
+    background-image: url('../../img/barchart.jpg');
+}
+.item--5{
+    @include backImg();
+    background-image: url('../../img/donut-pie.jpg');
+}
+.item--6{
+    @include backImg();
+    background-image: url('../../img/areachart.jpg');
+}
+.item--7{
+    @include backImg();
+    background-image: url('../../img/mindgap.jpg');
+}
+.item--8{
+    @include backImg();
+    background-image: url('../../img/layoutforce.jpg');
+}
+
