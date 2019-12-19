@@ -14,6 +14,9 @@ body {
   font-family: 'Titillium Web' ,sans-serif; }
 
 /* Buttons */
+.hidden {
+  visibility: hidden; }
+
 /* nav */
 .nav {
   height: 4rem;
