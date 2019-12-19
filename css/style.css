@@ -14,9 +14,6 @@ body {
   font-family: 'Titillium Web' ,sans-serif; }
 
 /* Buttons */
-.hidden {
-  visibility: hidden; }
-
 /* nav */
 .nav {
   height: 4rem;
@@ -61,50 +58,69 @@ body {
   border-radius: .5rem;
   box-shadow: 0px 2px 3px #ccc; }
 
+.hidden {
+  visibility: hidden; }
+
 .item--1 {
   background-size: cover;
   background-repeat: no-repeat;
   padding: .1rem;
   background-image: url("../../img/ReactCandle.jpg"); }
+  .item--1:hover #hover-1 {
+    visibility: visible; }
 
 .item--2 {
   background-size: cover;
   background-repeat: no-repeat;
   padding: .1rem;
   background-image: url("../../img/lineCharts.jpg"); }
+  .item--2:hover #hover-2 {
+    visibility: visible; }
 
 .item--3 {
   background-size: cover;
   background-repeat: no-repeat;
   padding: .1rem;
   background-image: url("../../img/histogram.jpg"); }
+  .item--3:hover #hover-3 {
+    visibility: visible; }
 
 .item--4 {
   background-size: cover;
   background-repeat: no-repeat;
   padding: .1rem;
   background-image: url("../../img/barchart.jpg"); }
+  .item--4:hover #hover-4 {
+    visibility: visible; }
 
 .item--5 {
   background-size: cover;
   background-repeat: no-repeat;
   padding: .1rem;
   background-image: url("../../img/donut-pie.jpg"); }
+  .item--5:hover #hover-5 {
+    visibility: visible; }
 
 .item--6 {
   background-size: cover;
   background-repeat: no-repeat;
   padding: .1rem;
   background-image: url("../../img/areachart.jpg"); }
+  .item--6:hover #hover-6 {
+    visibility: visible; }
 
 .item--7 {
   background-size: cover;
   background-repeat: no-repeat;
   padding: .1rem;
   background-image: url("../../img/mindgap.jpg"); }
+  .item--7:hover #hover-7 {
+    visibility: visible; }
 
 .item--8 {
   background-size: cover;
   background-repeat: no-repeat;
   padding: .1rem;
   background-image: url("../../img/layoutforce.jpg"); }
+  .item--8:hover #hover-8 {
+    visibility: visible; }

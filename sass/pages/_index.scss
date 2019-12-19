@@ -3,36 +3,48 @@
     background-repeat:no-repeat; 
     padding: .1rem;
 }
+.hidden{
+    visibility: hidden;
+}
+
 .item--1{
     @include backImg();
     background-image: url('../../img/ReactCandle.jpg');
+    &:hover #hover-1{visibility: visible;};
 }
 .item--2{
     @include backImg();
     background-image: url('../../img/lineCharts.jpg');
+    &:hover #hover-2{visibility: visible;};
 }
 .item--3{
     @include backImg();
     background-image: url('../../img/histogram.jpg');
+    &:hover #hover-3{visibility: visible;};
 }
 .item--4{
     @include backImg();
     background-image: url('../../img/barchart.jpg');
+    &:hover #hover-4{visibility: visible;};
 }
 .item--5{
     @include backImg();
     background-image: url('../../img/donut-pie.jpg');
+    &:hover #hover-5{visibility: visible;};
 }
 .item--6{
     @include backImg();
     background-image: url('../../img/areachart.jpg');
+    &:hover #hover-6{visibility: visible;};
 }
 .item--7{
     @include backImg();
     background-image: url('../../img/mindgap.jpg');
+    &:hover #hover-7{visibility: visible;};
 }
 .item--8{
     @include backImg();
     background-image: url('../../img/layoutforce.jpg');
+    &:hover #hover-8{visibility: visible;};
 }
 
