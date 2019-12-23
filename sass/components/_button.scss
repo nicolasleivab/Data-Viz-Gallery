@@ -1,1 +1,21 @@
 /* Buttons */
+
+.btn{
+    text-decoration: none;
+    color: white;
+    &--live{
+        text-transform: uppercase;
+        :hover{
+        text-decoration: underline;
+        color: $color-grid-gray;
+    }
+    }
+    
+    &--git{
+        margin: 0 0 0 .5rem;
+        :hover{
+        color: $color-grid-gray;
+    }
+    }
+}
+
