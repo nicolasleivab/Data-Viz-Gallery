@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
 *,
 *::after,
 *::before {
@@ -16,15 +17,16 @@ body {
 /* Buttons */
 .btn {
   text-decoration: none;
-  color: white; }
+  color: #fff; }
   .btn--live {
-    text-transform: uppercase; }
-    .btn--live :hover {
-      text-decoration: underline;
-      color: #DCDCDC; }
+    text-transform: uppercase;
+    font-family: 'Righteous', cursive;
+    font-weight: 400; }
+    .btn--live:hover {
+      color: #DCDCDC !important; }
   .btn--git {
     margin: 0 0 0 .5rem; }
-    .btn--git :hover {
+    .btn--git:hover {
       color: #DCDCDC; }
 
 /* nav */
@@ -88,8 +90,6 @@ body {
   .hidden p {
     margin: 0 1.5rem 0 1.5rem;
     word-wrap: break-word; }
-  .hidden a {
-    margin: auto; }
 
 .item--1 {
   background-size: cover;
@@ -222,11 +222,12 @@ body {
 .tech {
   font-family: 'MontSerrat', Tahoma,Arial,sans-serif;
   font-size: 1.2rem;
-  font-weight: 700; }
+  font-weight: 700;
+  margin-bottom: 1rem !important; }
 
 .grid-title {
   font-size: 1.5rem; }
 
 .btn-container {
-  margin-top: 1rem;
+  margin-top: 1.5rem !important;
   text-align: center; }

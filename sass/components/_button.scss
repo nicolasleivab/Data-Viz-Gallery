@@ -2,20 +2,20 @@
 
 .btn{
     text-decoration: none;
-    color: white;
+    color:$color-white;
     &--live{
         text-transform: uppercase;
-        :hover{
-        text-decoration: underline;
-        color: $color-grid-gray;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        &:hover{
+        color: $color-grid-gray !important;
     }
     }
     
     &--git{
         margin: 0 0 0 .5rem;
-        :hover{
+        &:hover{
         color: $color-grid-gray;
     }
     }
 }
-
