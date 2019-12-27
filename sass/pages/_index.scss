@@ -48,14 +48,14 @@
 }
 .item--3{
     @include backImg();
-    background-image: url('../../img/histogram.jpg');
+    background-image: url('../../img/barchart.jpg');
     &:hover #hover-3{
          @include hoverColor();
     };
 }
 .item--4{
     @include backImg();
-    background-image: url('../../img/barchart.jpg');
+    background-image: url('../../img/histogram.jpg');
     &:hover #hover-4{
          @include hoverColor();
     };
